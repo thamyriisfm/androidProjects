@@ -17,8 +17,10 @@ class MainActivity : AppCompatActivity() {
         binding.buttonPassarDados.setOnClickListener {
             val intent = Intent(applicationContext, SegundaTelaActivity::class.java)
             //PASSAR DADOS
-            intent.putExtra("nome", "Paulinho")
+            intent.putExtra("nome", "Um numero foi passado de uma tela para a outra, e esse número foi :")
             intent.putExtra("idade", 30)
+            // não era pra fazer sentido
+            //só pra treino e aprendizado mesmo :>
             startActivity(intent)
         }
     }

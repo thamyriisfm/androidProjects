@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
 
     fun cliqueBotao (view: View){
         var texto = findViewById(R.id.textoExibicao) as TextView
-        texto.setText("TEXTO ALTERADO")
+        texto.setText("SEU CURIOSO")
     }
 }

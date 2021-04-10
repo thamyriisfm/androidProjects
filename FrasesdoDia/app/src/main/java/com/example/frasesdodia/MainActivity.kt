@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
     val frases = arrayOf(
-            "Teste 1",
-            "Teste 2",
-            "Teste 3"
+            "Nem todos os dias são bons, mas há algo bom em tem cada dia.",
+            "O pássaro quando aprende a voar sabe mais sobre coragem do que de vôo.",
+            "Você só vence amanhã se não desistir hoje."
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
