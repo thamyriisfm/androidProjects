@@ -1,2 +1,0 @@
-#README
-_negrito_
