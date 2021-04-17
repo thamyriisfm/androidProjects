@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     val frases = arrayOf(
             "Nem todos os dias são bons, mas há algo bom em tem cada dia.",
-            "O pássaro quando aprende a voar sabe mais sobre coragem do que de vôo.",
+            "O pássaro quando aprende a voar sabe mais sobre coragem do sabe sobre" +
+                    " vôo.",
             "Você só vence amanhã se não desistir hoje."
     )
 
