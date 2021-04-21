@@ -13,10 +13,12 @@ class SegundaTelaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        var teste = 0
+
         binding = ActivitySegundaTelaBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
+        teste = 30
         val dados: Bundle? = intent.extras
         val nome = dados?.getString("nome")
         val idade = dados?.getInt("idade")
